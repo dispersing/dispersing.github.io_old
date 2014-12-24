@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  <id>urn:iweb:7B9F0970-3629-43CF-8A13-0C943469F451</id>
  <title>Page list Atom feed</title>
- <updated>2014-11-26T12:13:47-05:00</updated>
+ <updated>2014-12-24T08:16:26-08:00</updated>
  <link rel="self" href="feed.xml"/>
  <generator>iWeb</generator>
  <author>
@@ -14,7 +14,7 @@
   <title xmlns="urn:iweb:">research</title>
   <in-navbar xmlns="urn:iweb:">659D9A08-02C1-40CD-A113-66CD60252E8F</in-navbar>
   <link rel="alternate" href="research.html"/>
-  <updated>2014-11-26T12:13:48.001-05:00</updated>
+  <updated>2014-12-24T08:16:26.001-08:00</updated>
   <content>research</content>
  </entry>
  <entry>
@@ -23,7 +23,7 @@
   <title xmlns="urn:iweb:">cv</title>
   <in-navbar xmlns="urn:iweb:">302CDAA5-978E-4ED0-83EE-3E00BEA6C6F2</in-navbar>
   <link rel="alternate" href="cv.html"/>
-  <updated>2014-11-26T12:13:48.002-05:00</updated>
+  <updated>2014-12-24T08:16:26.002-08:00</updated>
   <content>cv</content>
  </entry>
  <entry>
@@ -32,7 +32,7 @@
   <title xmlns="urn:iweb:">teaching</title>
   <in-navbar xmlns="urn:iweb:">10A2E74A-B4C2-4A44-8711-6CE1A276EC58</in-navbar>
   <link rel="alternate" href="teaching.html"/>
-  <updated>2014-11-26T12:13:48.003-05:00</updated>
+  <updated>2014-12-24T08:16:26.003-08:00</updated>
   <content>teaching</content>
  </entry>
  <entry>
@@ -41,7 +41,7 @@
   <title xmlns="urn:iweb:">contact</title>
   <in-navbar xmlns="urn:iweb:">BD28BA86-92CE-448A-8842-AEDD3427D732</in-navbar>
   <link rel="alternate" href="contact.html"/>
-  <updated>2014-11-26T12:13:48.004-05:00</updated>
+  <updated>2014-12-24T08:16:26.004-08:00</updated>
   <content>contact</content>
  </entry>
  <entry>
@@ -50,7 +50,7 @@
   <title xmlns="urn:iweb:">manzanita germination 1</title>
   <in-navbar xmlns="urn:iweb:">14AA66A0-E25E-433B-86E7-27E80E57276E</in-navbar>
   <link rel="alternate" href="manzanita_germination_1.html"/>
-  <updated>2014-11-26T12:13:48.005-05:00</updated>
+  <updated>2014-12-24T08:16:26.005-08:00</updated>
   <content>manzanita germination 1</content>
  </entry>
 </feed>
