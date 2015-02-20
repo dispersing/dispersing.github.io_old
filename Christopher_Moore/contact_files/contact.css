@@ -75,6 +75,10 @@
     font-weight: 400;
     line-height: 17px;
 }
+.style_SkipStroke_2 {
+    background: transparent;
+    opacity: 1.00;
+}
 .style_2 {
     padding: 4px;
 }
@@ -100,8 +104,35 @@
     text-indent: 0px;
     text-transform: none;
 }
+.style_External_109_58 {
+    bottom: 0px;
+    position: absolute;
+    width: 109px;
+}
+.style_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_SkipStroke_1 {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_SkipStroke_3 {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_External_128_58 {
+    bottom: 0px;
+    position: absolute;
+    width: 128px;
+}
 .style_3 {
     padding: 4px;
+}
+.style_External_62_24 {
+    bottom: 0px;
+    position: absolute;
+    width: 62px;
 }
 .paragraph_style_4 {
     color: rgb(88, 77, 77);
@@ -125,49 +156,14 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_External_205_41 {
-    bottom: 0px;
-    position: absolute;
-    width: 205px;
-}
-.style_External_109_58 {
-    bottom: 0px;
-    position: absolute;
-    width: 109px;
-}
-.style_SkipStroke_2 {
-    background: transparent;
-    opacity: 1.00;
-}
-.style_SkipStroke {
-    background: transparent;
-    opacity: 1.00;
-}
-.style_SkipStroke_1 {
-    background: transparent;
-    opacity: 1.00;
-}
-.style_SkipStroke_3 {
-    background: transparent;
-    opacity: 1.00;
-}
 .style_SkipStroke_4 {
     background: transparent;
     opacity: 1.00;
 }
-.style_SkipStroke_5 {
-    background: transparent;
-    opacity: 1.00;
-}
-.style_External_128_58 {
+.style_External_205_41 {
     bottom: 0px;
     position: absolute;
-    width: 128px;
-}
-.style_External_62_24 {
-    bottom: 0px;
-    position: absolute;
-    width: 62px;
+    width: 205px;
 }
 .style_External_346_276 {
     position: relative;
@@ -197,19 +193,19 @@
 .Normal {
     padding: 4px;
 }
-.Normal_External_128_58 {
-    position: relative;
-}
 .Normal_External_62_24 {
     position: relative;
 }
 .Normal_External_205_41 {
     position: relative;
 }
-.Normal_External_346_276 {
+.Normal_External_128_58 {
     position: relative;
 }
 .Normal_External_109_58 {
+    position: relative;
+}
+.Normal_External_346_276 {
     position: relative;
 }
 .graphic_generic_body_textbox_style_default_SkipStroke {
@@ -229,10 +225,6 @@
     opacity: 1.00;
 }
 .graphic_image_style_default_3_SkipStroke {
-    background: transparent;
-    opacity: 1.00;
-}
-.graphic_image_style_default_7_SkipStroke {
     background: transparent;
     opacity: 1.00;
 }
