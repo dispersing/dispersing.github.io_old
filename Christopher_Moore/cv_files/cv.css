@@ -137,10 +137,6 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_SkipStroke {
-    background: transparent;
-    opacity: 1.00;
-}
 .style_2 {
     padding: 4px;
 }
@@ -166,30 +162,16 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_SkipStroke_1 {
-    background: transparent;
-    opacity: 1.00;
-}
-.style_External_109_58 {
-    bottom: 0px;
-    position: absolute;
-    width: 109px;
-}
-.style_External_128_58 {
-    bottom: 0px;
-    position: absolute;
-    width: 128px;
-}
 .style_3 {
     padding: 4px;
 }
 .style_External_612_8165 {
     position: relative;
 }
-.style_External_62_24 {
+.style_External_109_58 {
     bottom: 0px;
     position: absolute;
-    width: 62px;
+    width: 109px;
 }
 .paragraph_style_7 {
     color: rgb(88, 77, 77);
@@ -213,10 +195,54 @@
     text-indent: 0px;
     text-transform: none;
 }
+.paragraph_style_8 {
+    color: rgb(88, 77, 77);
+    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 17px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: right;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
 .style_External_205_49 {
     bottom: 0px;
     position: absolute;
     width: 205px;
+}
+.style_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_SkipStroke_1 {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_SkipStroke_2 {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_External_128_58 {
+    bottom: 0px;
+    position: absolute;
+    width: 128px;
+}
+.style_External_62_24 {
+    bottom: 0px;
+    position: absolute;
+    width: 62px;
 }
 .Body {
     color: rgb(88, 77, 77);
@@ -243,16 +269,16 @@
 .Normal {
     padding: 4px;
 }
-.Normal_External_62_24 {
-    position: relative;
-}
 .Normal_External_612_8165 {
     position: relative;
 }
-.Normal_External_205_49 {
+.Normal_External_128_58 {
     position: relative;
 }
-.Normal_External_128_58 {
+.Normal_External_62_24 {
+    position: relative;
+}
+.Normal_External_205_49 {
     position: relative;
 }
 .Normal_External_109_58 {
@@ -263,6 +289,16 @@
     opacity: 1.00;
 }
 .graphic_generic_description_textbox_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.graphic_textbox_layout_style_default {
+    padding: 4px;
+}
+.graphic_textbox_layout_style_default_External_86_24 {
+    position: relative;
+}
+.graphic_textbox_style_default_SkipStroke {
     background: transparent;
     opacity: 1.00;
 }
