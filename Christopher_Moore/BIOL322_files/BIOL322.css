@@ -1,0 +1,600 @@
+.style {
+    padding: 0px;
+}
+.paragraph_style {
+    color: rgb(81, 81, 81);
+    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 13px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: underline;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_1 {
+    padding: 4px;
+}
+.style_External_638_132 {
+    position: relative;
+}
+.style_External_393_14 {
+    position: relative;
+}
+.paragraph_style_1 {
+    color: rgb(81, 81, 81);
+    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 13px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_2 {
+    color: rgb(81, 81, 81);
+    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 11px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_SkipStroke_1 {
+    background: transparent;
+    opacity: 1.00;
+}
+.paragraph_style_3 {
+    color: rgb(81, 81, 81);
+    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_4 {
+    color: rgb(81, 81, 81);
+    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_2 {
+    line-height: 15px;
+    text-decoration: line-through;
+}
+.paragraph_style_5 {
+    color: rgb(81, 81, 81);
+    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_6 {
+    color: rgb(81, 81, 81);
+    font-family: 'AmericanTypewriter', 'American Typewriter', 'Courier', serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 13px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: right;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_SkipStroke_2 {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_External_125_35 {
+    position: relative;
+}
+.style_External_327_233 {
+    position: relative;
+}
+.style_External_638_1122 {
+    position: relative;
+}
+.Free_Form {
+    color: rgb(88, 77, 77);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.Normal {
+    padding: 4px;
+}
+.Normal_External_393_14 {
+    position: relative;
+}
+.Normal_External_125_35 {
+    position: relative;
+}
+.Title {
+    color: rgb(88, 77, 77);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.graphic_generic_title_textbox_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.graphic_image_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.graphic_textbox_layout_style_default {
+    padding: 4px;
+}
+.graphic_textbox_layout_style_default_External_638_132 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_638_1122 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_327_233 {
+    position: relative;
+}
+.graphic_textbox_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+a {
+    color: rgb(88, 77, 77);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class1 {
+    text-decoration: none;
+}
+a.class1:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class1:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class10 {
+    text-decoration: none;
+}
+a.class10:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class10:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class11 {
+    text-decoration: none;
+}
+a.class11:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class11:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class12 {
+    text-decoration: none;
+}
+a.class12:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class12:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class13 {
+    text-decoration: none;
+}
+a.class13:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class13:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class14 {
+    text-decoration: none;
+}
+a.class14:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class14:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class15 {
+    text-decoration: none;
+}
+a.class15:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class15:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class16 {
+    text-decoration: none;
+}
+a.class16:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class16:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class17 {
+    text-decoration: none;
+}
+a.class17:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class17:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class18 {
+    text-decoration: none;
+}
+a.class18:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class18:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class19 {
+    text-decoration: none;
+}
+a.class19:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class19:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class2 {
+    text-decoration: none;
+}
+a.class2:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class2:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class20 {
+    color: rgb(81, 81, 81);
+    text-decoration: none;
+}
+a.class20:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class20:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class21 {
+    text-decoration: none;
+}
+a.class21:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class21:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class22 {
+    text-decoration: none;
+}
+a.class22:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class22:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class23 {
+    text-decoration: none;
+}
+a.class23:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class23:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class24 {
+    text-decoration: none;
+}
+a.class24:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class24:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class25 {
+    text-decoration: none;
+}
+a.class25:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class25:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class3 {
+    text-decoration: none;
+}
+a.class3:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class3:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class4 {
+    text-decoration: none;
+}
+a.class4:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class4:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class5 {
+    text-decoration: none;
+}
+a.class5:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class5:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class6 {
+    text-decoration: none;
+}
+a.class6:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class6:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class7 {
+    text-decoration: none;
+}
+a.class7:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class7:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class8 {
+    text-decoration: none;
+}
+a.class8:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class8:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a.class9 {
+    text-decoration: none;
+}
+a.class9:visited {
+    color: rgb(4, 51, 255);
+    text-decoration: none;
+}
+a.class9:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+.bumper {
+    font-size: 1px;
+    line-height: 1px;
+}
+.spacer {
+    font-size: 1px;
+    line-height: 1px;
+}
+body { 
+    -webkit-text-size-adjust: none;
+}
+div { 
+    overflow: visible; 
+}
+img { 
+    border: none; 
+}
+.InlineBlock { 
+    display: inline; 
+}
+.InlineBlock { 
+    display: inline-block; 
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-bottom:0.3em;
+}
+.inline-block.shape-with-text {
+    vertical-align: bottom;
+}
+.vertical-align-middle-middlebox {
+    display: table;
+}
+.vertical-align-middle-innerbox {
+    display: table-cell;
+    vertical-align: middle;
+}
+div.paragraph {
+    position: relative;
+}
+li.full-width {
+    width: 100;
+}
