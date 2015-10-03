@@ -1,1 +1,23 @@
-baseurl: http://dispersing.github.io/poole/
+# Dependencies
+markdown:         redcarpet
+highlighter:         pygments
+gems: [httparty]
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Christopher Moore
+tagline:          'Ecologist'
+description:      'Studying positive species interactions and space'
+
+author:
+  name:           'Christopher Moore'
+
+# paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  me:           https://github.com/dispersing
