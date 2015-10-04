@@ -26,14 +26,27 @@
       </ul>
     </nav>
  
-    <h3>home</h3>
+    <head>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+</head>
+
+<h3>home</h3>
 <section class="content">
 Christopher Moore, Postdoctoral research associate,<br>Department of Biology, Case Western Reserve University
 </section>
 
-<section role="banner">
-  <img src="/img/banner.png" />
-</section>
+      <section class="slider">
+        <div class="flexslider">
+          <ul class="slides">
+            <li><img src="img/carousel/banner.png" /></li>
+            <li><img src="img/carousel/mutvec.png" /></li>
+            <li><img src="img/carousel/popint.png" /></li>
+  	    	<li><img src="img/carousel/chipmunk.jpg" /></li>
+            <li><img src="img/carousel/dispcurves.png" /></li>
+            <li><img src="img/carousel/Ex1_QP_contour.png" /></li>
+          </ul>
+        </div>
+      </section>
 
 <section class="content">
 	<p>
@@ -52,6 +65,22 @@ Christopher Moore, Postdoctoral research associate,<br>Department of Biology, Ca
 	Thanks again, and feel free to contact my with any questions.
 	</p> 
 </section>
+
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- FlexSlider -->
+  <script defer src="/js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",slideshowSpeed: 3000
+  });
+});
+  </script>
+
  
 <!--    <footer>
       <p>@copy; John Doe Photography 2011 | All Rights Reserved. </p>
