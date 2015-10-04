@@ -35,14 +35,13 @@ h4 {
   padding: 0;
 }
 
-
 nav ul, ul.entries {
   list-style-type: none;
   font-size: 90%;
   }
 nav li a {
   float: right;
-  margin: 5px;
+  margin: 3px;
 }
 
 .content {
