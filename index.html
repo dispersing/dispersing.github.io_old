@@ -4,6 +4,19 @@ title: home
 ---
 <head>
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<style type="text/css">
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  color: black;
+  /*text-shadow: 0 -1px 0 rgba(0,0,0,.3);*/
+  font-size: 0.9em;
+  line-height: 18px;
+}
+</style>
 </head>
 
 <h3>home</h3>
@@ -14,13 +27,15 @@ Christopher Moore, Postdoctoral research associate,<br>Department of Biology, Ca
       <section class="slider">
         <div class="flexslider">
           <ul class="slides">
-            <li><img src="img/carousel/banner.png" /></li>
-            <li><img src="img/carousel/mutvec.png" /></li>
-            <li><img src="img/carousel/popint.png" /></li>
-  	    	<li><img src="img/carousel/chipmunk.jpg" /></li>
-            <li><img src="img/carousel/dispcurves.png" /></li>
-            <li><img src="img/carousel/Ex1_QP_contour.png" /></li>
-            <li><img src="img/carousel/numdomlog.png" /></li>
+            <li><img src="img/carousel/banner.png" />
+		     <p class="flex-caption"><i>Growth rates in the presence of mutualist, both density-independent (left) and -dependent (right)</i></p></li>
+            <li><img src="img/carousel/mutvec.png" />
+            <p class="flex-caption">Phase plane of mutualist populations, with null clines for N1 (<font color="blue">blue</font>) and N2 (<font color="red">red</font>)</p></li>
+            <li><img src="img/carousel/popint.png" /><p class="flex-caption">Schematic of two heterogeneous populations interacting through dispersal</p></li>
+  	    	<li><img src="img/carousel/chipmunk.jpg" /><p class="flex-caption">Chipmunks disperse some species' seeds to safe sites in fire-prone ecosystems</p></li>
+            <li><img src="img/carousel/dispcurves.png" /><p class="flex-caption">Dispersal can be viewed from the parent (pole) as prob(distance) to a point (left) or annulus (right)</p></li>
+            <li><img src="img/carousel/Ex1_QP_contour.png" /><p class="flex-caption">Quasi-potential for a plankton-consumer model</p></li>
+            <li><img src="img/carousel/numdomlog.png" /><p class="flex-caption">Mutualism reducing intraspecific competition (black) and increasing carrying capacity (<font color="blue">blue</font	>)</p></li>
           </ul>
         </div>
       </section>
@@ -53,7 +68,9 @@ Christopher Moore, Postdoctoral research associate,<br>Department of Biology, Ca
   <script type="text/javascript">
 $(window).load(function() {
   $('.flexslider').flexslider({
-    animation: "slide",slideshowSpeed: 3000,controlNav: false
+    animation: "slide",
+    controlNav: false,
+    slideshowSpeed: 3000
   });
 });
   </script>
