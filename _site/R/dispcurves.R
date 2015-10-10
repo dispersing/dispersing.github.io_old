@@ -107,8 +107,8 @@
 	box.stats.w <- boxplot(w.mat , plot = F)$stats[-3,]
 	box.stats.f <- boxplot(f.mat , plot = F)$stats[-3,]
 
-png("/Users/christophermoore/Projects/dispersing.github.io/img/dispcurves.png", width = 480, height = 250)
-	par(mfrow = c(1,2) , mar = c(0.5,0.5,0.5,0.5) , oma = c(1,1,1,1))
+png("/Users/christophermoore/Projects/dispersing.github.io/img/dispcurves.png", width = 250, height = 480)
+	par(mfrow = c(2,1) , mar = c(0.5,0.5,0.5,0.5) , oma = c(1,1,1,1))
 	plot(0 , type = "n" , ylim = c(0, max(w.mat)) , xlim = c(0,length(box.stats.w[4,])) , xlab = "" , ylab = "" , xaxt = "n", yaxt = "n")
 	polygon(c(1:length(box.stats.w[4,]),length(box.stats.w[4,]):1),c(box.stats.w[4,],rev(box.stats.w[1,])) , col = rgb(0,0,1,1/3) , border = F)
 	polygon(c(1:length(box.stats.w[4,]),length(box.stats.w[4,]):1),c(box.stats.w[3,],rev(box.stats.w[2,])) , col = rgb(0,0,.75,2/3) , border = F)
@@ -116,14 +116,15 @@ png("/Users/christophermoore/Projects/dispersing.github.io/img/dispcurves.png", 
 	abline(h = 0 , v = 1 , lwd = 0.75 , col = "black")
 	# axis(1 , labels = F)
 	# axis(2 , labels = F)
-	mtext("Probability" , side = 2 , line = 0.25)
-	mtext("Distance from pole" , side = 1 , line = -0.25 , outer = T)
 
 	plot(0 , type = "n" , ylim = c(0, max(f.mat)) , xlim = c(0, length(box.stats.f[4,])) , xlab = "" , ylab = "" , xaxt = "n", yaxt = "n")
 	polygon(c(1:length(box.stats.f[4,]),length(box.stats.f[4,]):1),c(box.stats.f[4,],rev(box.stats.f[1,])) , col = rgb(0,0,1,1/3) , border = F)
 	polygon(c(1:length(box.stats.f[4,]),length(box.stats.f[4,]):1),c(box.stats.f[3,],rev(box.stats.f[2,])) , col = rgb(0,0,.75,2/3) , border = F)
 	lines(fr.mean , col = "red" , lwd = 2 , lend = 1)
 	abline(h = 0, v = 1 , lwd = 0.75 , col = "black")
+	mtext("Distance from pole" , side = 1 , line = 0.25)
+	mtext("Probability" , side = 2 , line = -0.25 , outer = T)
+
 	# axis(1 , labels = F)
 	# axis(2 , labels = F)
 dev.off()
