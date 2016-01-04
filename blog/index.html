@@ -7,12 +7,10 @@ title: blog
  </section>
 <ul class="entries">
   {% for post in site.posts %}
- 
-  <li>
+
     <a href="{{ post.url }}">
-      <h3>{{post.title}}</h3>
+      <h3>{{post.date | date: "%Y %B %d"}}, {{post.title}}</h3>
     </a>
-  </li>
- 
+
   {% endfor %}
 </ul>
