@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>  Creating a hexagonal world |  Christopher Moore, ecologist </title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="shortcut icon" href="http://www.case.edu/favicon.ico">
+</head>
+<body>
+
+  <div id="main">
+ 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68437941-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    <nav role="navigation">
+      <ul>
+        <li><a href="/contact">contact</a></li>
+        <li><a href="/quotes">quotes</a></li>
+        <li><a href="/blog">blog</a></li>
+        <li><a href="/teaching">teaching</a></li>
+        <li><a href="/publications">publications</a></li>
+        <li><a href="/research">research</a></li>
+        <li><a href="/">home</a></li>
+      </ul>
+    </nav>
+ 
+    <h3>10 June 2016</h3>
+ <section class="content">
+ <h3>Creating a hexagonal world</h3>
+<p>It cannot be stated just how important space is in ecology and evolution.  The fact that organisms exist in 2 (or 3) spatial dimensions means that any understanding of ecological or evolutionary processes need to be placed in a spatial context or assumptions need to be made that most often don't reflect the biology of the organism or process.  Some of these assumptions that are probably most familiar may include panmixia/random mating (partially implies that organisms travel through space with 0 effort) or mass action (ecological interaction rates are proportional to the homogeneous densities of each reactant, meaning that reactants that change instantaneously redistribute themselves in space). </p>
+
+<p>This is not to say that simple models have value---they do!  There are obviously advantages to models (conceptual or analytical) that make simplifying assumptions, because they have higher heuristic value, they're analytically more tractable, and they're easier to describe, as some examples.  The Lotka-Volterra prey-predator model, for instance, still is still an important teaching tool and is used by in many theoretical models (Journal of Theoretical Biology (v. 404) and Theoretical Ecology (v. 9, issue 2) both had articles with this model).</p>
+
+<p>But often, we wish to make models or understand biological processes with more realism, which is when we evoke space.  Keeling (<a href="https://books.google.com/books?id=p3eOlgKahCUC&printsec=frontcover&dq=advanced+ecological+theory+principles+and+applications&hl=en&sa=X&ved=0ahUKEwih4Nq2yp3NAhXEkx4KHSBHAawQ6AEIHDAA#v=onepage&q=advanced%20ecological%20theory%20principles%20and%20applications&f=false">1999, <i>Advanced Ecological Theory</i>, Ed. J. McGlade</a>) summarizes different types of spatial models:
+<ol type="I">
+  <li>Path or metapopulation model</li>
+  <li>Coupled map latices</li>
+  <li>Partial differential equations</li>
+  <li>Interacting particle systems (cellular automata and artificial ecologies)</li>
+</ol>
+Patch models (i.e., I.) generally consider a small number of homogeneous patches over discrete or continuous time with a continuous population size.  Lattice (i.e., II.) models are in discrete space over discrete time with continuous population sizes.  PDEs (i.e., III) model space, time, and population size continuously.  Lastly, IPSs (i.e., IV.; includes individual/agent based models [IBSs/ABMs] model space discretely, over continuous or discrete time, with discrete populations.  Each of the four have advantages and disadvantages, with some having analytical solutions, some requiring less computational power, etc.  Nevertheless, each time we are interested in understanding a spatial process or creating a spatial model, we often draw from one of these four methods.</p>
+
+<p>When I started my postdoc here at Case Western I was mentoring an undergraduate, K, for her undergraduate honor's thesis.  For this project she was interested in modeling the spread of disease in Gal&aacute;pagos sea lions and dogs.  The sea lions live on the peripheral shores of the islands and the dogs live in the interior.  The best framework that we came up with was a lattice.  We first used a square lattice, but it bothered me because of the artifactual effects of the peripheral cells.  For instance, in a 10 x 10 grid, we'd model the interior as 9 x 9 cells and the periphery as the 36 outer cells.  There are different disease transmission rates between the dogs (interior) and sea lions (periphery) based upon their location.  In this square grid, this means that the four corners represent four sea lion populations that are farther away from the dogs, and the only ones that don't make direct contact.</p>
+
+<p>To overcome the problem of a rectangular grid, we decided to create a hexagonal lattice.  There are many reasons to use these latices; for example, all neighbor cells are equally distant from a central cell and there are no corner effects.  The geometry underlying these grids are a little more burdensome compared to using a rectangular lattice, which is why I imagine they aren't used more often.  But further, in R, there is means to even crease a hexagonal distance matrix, let alone graphical support.  <b>Insert me--I have begun to work on a package in R that will allow users to:
+<ol type="i">
+<li>generate hexagonal lattice coordinates as rectangular or hexagonal grid shapes, </li>
+<li>plot hexagonal lattices, </li>
+<li>generate hexagonal distance matrices, and</li>
+<li>create dynamic plots.</li>
+</ol>
+
+</b> The package is just in its infancy and can be found at GitHub, here <a href="https://github.com/dispersing/HexGrid">https://github.com/dispersing/HexGrid</a>.  This is lower priority than creating the specific functions for our project (we are working on preparing K's project for publication), but I imagine that I should have it finished by the end of the year, and hopefully by the end of summer.</p>
+<p>In the meantime, here is an example of a distance matrix for 25 cells for a hexagonal lattice with a radius of 3.  Grids without a 0 in a cell don't have meaning, but this was a draft figure (i.e., a cell without a 0 means that the distance is calculated from a cell that doesn't exist in the hexagonal grid).</p>
+<img src="/img/5by5.png" alt="Hexagonal distance matrix" width="700">
+
+ 
+<!--    <footer>
+      <p>@copy; John Doe Photography 2011 | All Rights Reserved. </p>
+    </footer> -->
+ 
+  </div>
+
+</body>
+</html>
