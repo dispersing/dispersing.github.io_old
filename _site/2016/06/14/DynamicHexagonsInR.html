@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>  Creating dynamics in a hexagonal world in the R environment |  Christopher Moore, ecologist </title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="shortcut icon" href="http://www.case.edu/favicon.ico">
+</head>
+<body>
+
+  <div id="main">
+ 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68437941-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    <nav role="navigation">
+      <ul>
+        <li><a href="/contact">contact</a></li>
+        <li><a href="/quotes">quotes</a></li>
+        <li><a href="/blog">blog</a></li>
+        <li><a href="/teaching">teaching</a></li>
+        <li><a href="/publications">publications</a></li>
+        <li><a href="/research">research</a></li>
+        <li><a href="/">home</a></li>
+      </ul>
+    </nav>
+ 
+    <h3>14 June 2016</h3>
+ <section class="content">
+ <h3>Creating dynamics in a hexagonal world in the R environment</h3>
+<p>I've recently been collaborating on a project on the spread of wildlife disease.  We have an interesting spatially structured system with a reservoir host occupying the interior of islands and the species of concern on the periphery of the islands (see last week's post: <a href="/2016/06/10/Hexagons.html">Creating a hexagonal world</a>).</p>
+
+<p>There is disease spread within the interior of the island, within the periphery of the island, and between the interior and periphery, which makes understanding the simulations difficult.  We have a variety of summary statistics over space and time to give us a sense of what is happening, but a key part of understanding the dynamics is to visually inspect what's happening.</p>
+
+<p><b>Over the past week I wrote a function specific to our project (<a href="https://github.com/kpd19/CDVSealion/tree/master/Chris">GitHub link to HexGraph</a>) that allows us to visualize the disease dynamics:</b></p>
+<video width="320" height="240" controls loop>
+  <source src="/img/hex_r5.mp4" type="video/mp4">
+Your browser does not support the video tag.</video>
+
+<p>In the video, the colors represent the reservoir host (red, interior) and species of interest (yellow, periphery).  The brightness of the colors correspond to a high density of infected organisms. I absolutely love watching these videos, and could watch them all day!</p>
+
+<p>One of the reasons that I enjoy these so much is that I was able to run the <a href="https://cran.r-project.org/web/packages/animation/index.html">animation</a> package in R.  One function, in particular, <code>saveVideo()</code>, is able to generate .mp4 files of our daily simulations over 25 years (9,125 iterations per simulation!).  This is preferable to the only other way I've generated video before (i.e., print all files as images, upload into <a href="https://imagej.nih.gov/ij/">ImageJ</a>, generate video file, delete all printed images) because it's faster, takes less memory, and is less prone to error.</p>
+
+<p>Below are the steps I followed to be able to use <a href="https://cran.r-project.org/web/packages/animation/index.html">animation</a> and make a silly test video for OSX:
+<ol type="I">
+  <li>Install <a href="http://brew.sh/">Homebrew</a></li>
+  	<ol type="i">
+  	<li> In Terminal, run:<br><code>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code>
+  	</ol>
+  <li>Install <a href="https://ffmpeg.org/">ffmpeg</a></li>
+  	<ol type="i">
+  	<li> In Terminal, run:<br><code>brew install ffmpeg</code>
+  	</ol>
+  <li>Install and load <a href="https://cran.r-project.org/web/packages/animation/index.html">animation</a> package in R</li>
+  	<ol type="i">
+  	<li> In R, run:<br><code>install.packages("animation")</code>
+  	<li> In R, run:<br><code>library(animation)</code>
+  	</ol>
+  <li>Make a video</li>
+  <ol type="i">
+  <li> In R, run:
+<div style="overflow:auto;"><div class="geshifilter"><pre class="r geshifilter-R" style="font-family:monospace;">saveVideo<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#123;</span>
+	<a href="http://inside-r.org/r-doc/base/message"><span style="color: #003399; font-weight: bold;">message</span></a> <span style="">&lt;-</span> <span style="color: #0000ff;">&quot;Hello world!&quot;</span>
+	n <span style="">&lt;-</span> <a href="http://inside-r.org/r-doc/base/nchar"><span style="color: #003399; font-weight: bold;">nchar</span></a><span style="color: #009900;">&#40;</span><a href="http://inside-r.org/r-doc/base/message"><span style="color: #003399; font-weight: bold;">message</span></a><span style="color: #009900;">&#41;</span>
+	<a href="http://inside-r.org/r-doc/stats/time"><span style="color: #003399; font-weight: bold;">time</span></a> = <span style="color: #cc66cc;">3</span>
+	ani.options<span style="color: #009900;">&#40;</span><a href="http://inside-r.org/packages/cran/interval"><span style="">interval</span></a> = time<span style="">/</span>n<span style="color: #339933;">,</span> nmax = n<span style="color: #009900;">&#41;</span>
+	<span style="color: #000000; font-weight: bold;">for</span> <span style="color: #009900;">&#40;</span>i <span style="color: #000000; font-weight: bold;">in</span> <span style="color: #cc66cc;">1</span><span style="">:</span>n<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
+		<a href="http://inside-r.org/r-doc/graphics/plot"><span style="color: #003399; font-weight: bold;">plot</span></a><span style="color: #009900;">&#40;</span>i<span style="color: #339933;">,</span> i<span style="color: #339933;">,</span> pch = <a href="http://inside-r.org/r-doc/base/paste"><span style="color: #003399; font-weight: bold;">paste</span></a><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;&quot;</span><span style="color: #339933;">,</span> <a href="http://inside-r.org/r-doc/base/substr"><span style="color: #003399; font-weight: bold;">substr</span></a><span style="color: #009900;">&#40;</span><a href="http://inside-r.org/r-doc/base/message"><span style="color: #003399; font-weight: bold;">message</span></a><span style="color: #339933;">,</span> i<span style="color: #339933;">,</span> i<span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span> <span style="color: #0000ff;">&quot;&quot;</span><span style="color: #339933;">,</span> sep = <span style="color: #0000ff;">&quot;&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span> cex = <span style="color: #cc66cc;">3</span><span style="color: #339933;">,</span> xlim = <a href="http://inside-r.org/r-doc/base/c"><span style="color: #003399; font-weight: bold;">c</span></a><span style="color: #009900;">&#40;</span><span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span> <span style="color: #009900;">&#40;</span>n<span style="">+</span><span style="color: #cc66cc;">1</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span> ylim = <a href="http://inside-r.org/r-doc/base/c"><span style="color: #003399; font-weight: bold;">c</span></a><span style="color: #009900;">&#40;</span><span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span> n<span style="">+</span><span style="color: #cc66cc;">1</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span>
+	<span style="color: #009900;">&#125;</span>
+<span style="color: #009900;">&#125;</span><span style="color: #339933;">,</span> video.name = <span style="color: #0000ff;">&quot;~/Desktop/Points.mp4&quot;</span>
+<span style="color: #009900;">&#41;</span></pre></div></div><p><a href="http://www.inside-r.org/pretty-r" title="Created by Pretty R at inside-R.org">Created by Pretty R at inside-R.org</a></p>
+</ol>
+</p>
+
+<p>And that's more or less it.  I just thought I'd put that out there to post the video and in case anybody's looking for a simple reference as to how to use <a href="https://cran.r-project.org/web/packages/animation/index.html">animation</a></p>
+ 
+<!--    <footer>
+      <p>@copy; John Doe Photography 2011 | All Rights Reserved. </p>
+    </footer> -->
+ 
+  </div>
+
+</body>
+</html>
