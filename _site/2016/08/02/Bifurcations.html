@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>  Hopf bifurcations in the Rosenzweig-MacArthur consumer-resource model |  Christopher Moore, ecologist </title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="shortcut icon" href="http://www.case.edu/favicon.ico">
+</head>
+<body>
+
+  <div id="main">
+ 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68437941-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    <nav role="navigation">
+      <ul>
+        <li><a href="/contact">contact</a></li>
+        <li><a href="/quotes">quotes</a></li>
+        <li><a href="/blog">blog</a></li>
+        <li><a href="/teaching">teaching</a></li>
+        <li><a href="/publications">publications</a></li>
+        <li><a href="/research">research</a></li>
+        <li><a href="/">home</a></li>
+      </ul>
+    </nav>
+ 
+    <h3>02 August 2016</h3>
+ <section class="content">
+ <h3>Hopf bifurcations in the Rosenzweig-MacArthur consumer-resource model</h3>
+ <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<p>This weekend I revisited Kevin McCann's monograph <a href="http://press.princeton.edu/titles/9642.html"><i>Food Webs</i></a> because I was reminding myself how it is exactly that we scale from 2- to <i>n</i>-species in dynamic models.</p>
+
+<p>As I was reading through the introductory chapter on dynamic modeling and because I am now enjoying the <a href="/2016/06/14/DynamicHexagonsInR.html">animations I can create in R</a>, I decided to recreate the example form a subsection on Hopf bifurcations, since I don't think I've ever created them in R. The idea goes a little something like this:</p>
+
+<p>The Rosenzweig-MacArthur consumer-resource model has been a historically important dynamical predator-prey (synonymous with consumer-resource) model, as they took Lotka and Volterra's predator-prey models (predator, \( P \); prey, \( H \)):
+$$
+	\begin{matrix}
+	\frac{dH}{dt} = rH - aHP \\
+	\frac{dP}{dt} = eaHP - dP
+	\end{matrix}
+$$
+and added made it a bit more realistic.  Specifically, they added logistic growth for the prey population and predator behaviour, as described by C.S. Holling as a saturating functional response.  The Rosenzweig-MacArthur consumer-resource model takes the form:
+$$
+	\begin{matrix}
+	\frac{dH}{dt} = rH\left(1 - \frac{H}{K}\right) - \frac{aHP}{1 + aT_{h}H}\\
+	\frac{dP}{dt} = e\frac{aHP}{1 + aT_{h}H} - dP
+	\end{matrix}
+$$
+For both of these equations, \( r \) is the growth rate of the prey as it approaches a density of 0 (i.e., density-independent or intrinsic growth rate), \( a \) is the attack rate of the predator, \( e \) is the conversion efficiency (i.e., how prey biomass \( \rightarrow \) predator biomass), and \( d \) is the death rate of the predator.  The differences between the two models are (1) the linear (\( rH \) in the first model) versus logistic (\( rH(1 - H/K) \) in the second model) growth of the prey and (II) the linear (\( aHP \) in the first model) versus saturating (\( \frac{aHP}{1 + aT_{h}H} \) in the second model) predator-prey interactions.</p>
+
+<p>The Rosenzweig-MacArthur consumer-resource model has been extensively studied.  One of the most interesting findings is that the behaviour of the model can shift, depending on the attack rate, \( a \) (parameter values below).  It turns out that if \( a \) is small (< 1.25), then there is a single attracting equilibrium point for the predators and prey, with the prey at carrying capacity \( (H = 2) \) and the predator extinct \( (P = 0) \).  If \( a \) is between 1.25 and 1.38, then there is a single stable equilibrium point.  If \( a \) is between 1.38 and 1.68, then the stable equilibrium point still exists, but it is a stable focus, where trajectories approach through dampened cycles.  And last, if \( a \) is greater than 1.68, then the populations cycle as a stable limit cycle.</p>
+
+<p> Below, I've created an animation with two panels---the <b>top</b> being a phase plane and the <b>bottom</b> being a time series representation of the Rosenzweig-MacArthur consumer-resource model when a single parameter, \( a \), is increased from 0.9 to 2.6.  The parameter values in this model are: \( r = 1, K = 2, e = R_0 = m = 0.5 \).</p>
+
+<video width="480" height="480" controls loop>
+  <source src="/img/bifurcation.mp4" type="video/mp4">
+  Your browser does not support the video tag.</video>
+
+<p>The phase plane was created using custom functions that I modified from the R package <a href="https://cran.r-project.org/web/packages/phaseR/index.html">phaseR</a>.  The arrows represent the direction field, which corresponds to the direction that the trajectory of prey and predators will change over time (e.g., the next time step).  The dashed color lines are the zero-growth isoclines (i.e., nullclines), which represent the values for which each of the variables do not change \( \partial X_i / \partial f_i(X_i, Y_i) = 0 \).  Where the zero-growth isoclines intersect is where neither of the variables change, and are hence equilibria.  The black point is a an example trajectory that I began at \( (H = 0.5, P = 0.2) \) and ran for 200 time steps to see the dynamics in phase space.
+</p>
+
+<p>The time series plot was created using a differential equation solver in R, <a href="https://cran.r-project.org/web/packages/deSolve/index.html">deSolve</a>.  This plot shows the same values as the phase plane, with initial values of prey and predator respectively 0.5 and 0.2, over 200 time steps, and with the densities of prey and predators being red and blue.  This is another way of visualizing the dynamics above, that others find more intuitive.</p>
+
+<p>Last, to see the eigenvalues of the Jacobian matrix evaluated at the interior equilibrium for each of value of \( a \), I created the biplot below.  As \( a \) increases, the maximum real part of the eigenvalue \( \lambda _{max} \) initially deceases.  Then at 1.38, the eigenvalues become complex; hence the dampening oscillations around the equilibrium.  Lastly, the eigenvalues become positive after \( a > 1.68 \), and hence begin cycling.</p>
+
+<img src="/img/bifurcation_eigen.png" alt="a versus eigenvlue biplot" width="480">
+ 
+<!--    <footer>
+      <p>@copy; John Doe Photography 2011 | All Rights Reserved. </p>
+    </footer> -->
+ 
+  </div>
+
+</body>
+</html>
