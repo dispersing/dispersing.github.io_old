@@ -3,8 +3,8 @@
 	<channel>
 		<title>Chris&#39;s news</title>
 		<description>This blog/newsfeed is an area for me to share all of my scienfic-related news and updates</description>		
-		<link>http://mutualismecology.com/blog/</link>
-		<atom:link href="http://mutualismecology.com/blog//blog/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://mutualismecology.com</link>
+		<atom:link href="http://mutualismecology.com/Blog/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Cleveland R Users Group (CRUG) presentation</title>
@@ -15,8 +15,8 @@
 </description>
 				
 				<pubDate>Mon, 15 Aug 2016 00:00:00 -0400</pubDate>
-				<link>http://mutualismecology.com/blog//2016/08/15/CRUG.html</link>
-				<guid isPermaLink="true">http://mutualismecology.com/blog//2016/08/15/CRUG.html</guid>
+				<link>http://mutualismecology.com/2016/08/15/CRUG.html</link>
+				<guid isPermaLink="true">http://mutualismecology.com/2016/08/15/CRUG.html</guid>
 			</item>
 		
 			<item>
@@ -28,8 +28,8 @@
 </description>
 				
 				<pubDate>Fri, 05 Aug 2016 00:00:00 -0400</pubDate>
-				<link>http://mutualismecology.com/blog//2016/08/05/EcologicalFunctions.html</link>
-				<guid isPermaLink="true">http://mutualismecology.com/blog//2016/08/05/EcologicalFunctions.html</guid>
+				<link>http://mutualismecology.com/2016/08/05/EcologicalFunctions.html</link>
+				<guid isPermaLink="true">http://mutualismecology.com/2016/08/05/EcologicalFunctions.html</guid>
 			</item>
 		
 			<item>
@@ -41,8 +41,8 @@
 </description>
 				
 				<pubDate>Tue, 02 Aug 2016 00:00:00 -0400</pubDate>
-				<link>http://mutualismecology.com/blog//2016/08/02/Bifurcations.html</link>
-				<guid isPermaLink="true">http://mutualismecology.com/blog//2016/08/02/Bifurcations.html</guid>
+				<link>http://mutualismecology.com/2016/08/02/Bifurcations.html</link>
+				<guid isPermaLink="true">http://mutualismecology.com/2016/08/02/Bifurcations.html</guid>
 			</item>
 		
 			<item>
@@ -54,8 +54,8 @@
 </description>
 				
 				<pubDate>Sun, 17 Jul 2016 00:00:00 -0400</pubDate>
-				<link>http://mutualismecology.com/blog//2016/07/17/RJournalAcceptance%20.html</link>
-				<guid isPermaLink="true">http://mutualismecology.com/blog//2016/07/17/RJournalAcceptance%20.html</guid>
+				<link>http://mutualismecology.com/2016/07/17/RJournalAcceptance%20.html</link>
+				<guid isPermaLink="true">http://mutualismecology.com/2016/07/17/RJournalAcceptance%20.html</guid>
 			</item>
 		
 			<item>
@@ -68,8 +68,8 @@
 </description>
 				
 				<pubDate>Thu, 16 Jun 2016 00:00:00 -0400</pubDate>
-				<link>http://mutualismecology.com/blog//2016/06/16/GEBAcceptance.html</link>
-				<guid isPermaLink="true">http://mutualismecology.com/blog//2016/06/16/GEBAcceptance.html</guid>
+				<link>http://mutualismecology.com/2016/06/16/GEBAcceptance.html</link>
+				<guid isPermaLink="true">http://mutualismecology.com/2016/06/16/GEBAcceptance.html</guid>
 			</item>
 		
 			<item>
@@ -81,8 +81,8 @@
 </description>
 				
 				<pubDate>Tue, 14 Jun 2016 00:00:00 -0400</pubDate>
-				<link>http://mutualismecology.com/blog//2016/06/14/DynamicHexagonsInR.html</link>
-				<guid isPermaLink="true">http://mutualismecology.com/blog//2016/06/14/DynamicHexagonsInR.html</guid>
+				<link>http://mutualismecology.com/2016/06/14/DynamicHexagonsInR.html</link>
+				<guid isPermaLink="true">http://mutualismecology.com/2016/06/14/DynamicHexagonsInR.html</guid>
 			</item>
 		
 			<item>
@@ -94,8 +94,8 @@
 </description>
 				
 				<pubDate>Fri, 10 Jun 2016 00:00:00 -0400</pubDate>
-				<link>http://mutualismecology.com/blog//2016/06/10/Hexagons.html</link>
-				<guid isPermaLink="true">http://mutualismecology.com/blog//2016/06/10/Hexagons.html</guid>
+				<link>http://mutualismecology.com/2016/06/10/Hexagons.html</link>
+				<guid isPermaLink="true">http://mutualismecology.com/2016/06/10/Hexagons.html</guid>
 			</item>
 		
 			<item>
@@ -107,8 +107,8 @@
 </description>
 				
 				<pubDate>Tue, 01 Mar 2016 00:00:00 -0500</pubDate>
-				<link>http://mutualismecology.com/blog//2016/03/01/Stochasticity.html</link>
-				<guid isPermaLink="true">http://mutualismecology.com/blog//2016/03/01/Stochasticity.html</guid>
+				<link>http://mutualismecology.com/2016/03/01/Stochasticity.html</link>
+				<guid isPermaLink="true">http://mutualismecology.com/2016/03/01/Stochasticity.html</guid>
 			</item>
 		
 			<item>
@@ -120,8 +120,8 @@
 </description>
 				
 				<pubDate>Thu, 21 Jan 2016 00:00:00 -0500</pubDate>
-				<link>http://mutualismecology.com/blog//2016/01/21/Conversations.html</link>
-				<guid isPermaLink="true">http://mutualismecology.com/blog//2016/01/21/Conversations.html</guid>
+				<link>http://mutualismecology.com/2016/01/21/Conversations.html</link>
+				<guid isPermaLink="true">http://mutualismecology.com/2016/01/21/Conversations.html</guid>
 			</item>
 		
 			<item>
@@ -133,8 +133,8 @@
 </description>
 				
 				<pubDate>Fri, 08 Jan 2016 00:00:00 -0500</pubDate>
-				<link>http://mutualismecology.com/blog//2016/01/08/ASN.html</link>
-				<guid isPermaLink="true">http://mutualismecology.com/blog//2016/01/08/ASN.html</guid>
+				<link>http://mutualismecology.com/2016/01/08/ASN.html</link>
+				<guid isPermaLink="true">http://mutualismecology.com/2016/01/08/ASN.html</guid>
 			</item>
 		
 	</channel>
