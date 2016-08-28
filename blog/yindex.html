@@ -1,0 +1,43 @@
+---
+layout: post_entry
+title: blog
+---
+<!-- 
+<style type="text/css">
+#wrap {
+   width:700px;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:340px;
+}
+#right_col {
+   float:right;
+   width:360px;
+}
+</style>
+ -->
+  <h3>blog</h3>
+ <section class="content">
+ </section>
+
+<div id="wrap">
+    <div id="left_col">
+	  <u>Posts by date</u>
+		<ul class="entries">
+		{% for post in site.posts %}
+		<a href="{{ post.url }}">
+		  <h3>{{post.date | date: "%Y %B %d"}}, {{post.title}}</h3>
+		</a>
+		{% endfor %}
+		</ul>
+    </div>
+
+    <div id="right_col">
+	 <u>Posts by category</h2></u>
+	 <u><h2>Posts by tag</h2></u>
+
+    </div>
+
+</div>

@@ -1,8 +1,8 @@
 body {
-  font: 0.9em arial, san-serif;
+  font: 1em arial, san-serif;
   background: white;
   color: #888888;
-  padding: 0;
+  padding: 10px 0px 100px 0px;
   margin: 0;
 }
 ul {
@@ -19,7 +19,7 @@ a:hover {
 }
  
 #main {
-  width: 700px;
+  width: 800px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.4);
 }
@@ -30,6 +30,10 @@ header {
 h1 {
   margin: 0;
 }
+h3 {
+  margin: 10px;
+}
+
 h4 {
   margin: 0;
   padding: 0;
