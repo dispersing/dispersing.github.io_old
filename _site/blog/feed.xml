@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>Chris's news</title>
+		<title>Chris&#39;s news</title>
 		<description>This blog/newsfeed is an area for me to share all of my scienfic-related news and updates</description>		
 		<link>http://mutualismecology.com</link>
-		<atom:link href="http://mutualismecology.com/blog/feed.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://mutualismecology.com/Blog/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>QPot paper posted on The R Journal&#39;s website</title>
+				        
+				
+					<description>&lt;p&gt;Last week our paper on the quasi-potential R package was published on The R Journal&#39;s website under &lt;i&gt;Accepted Articles&lt;/i&gt;: &lt;a href=&quot;https://journal.r-project.org/archive/accepted/&quot;&gt;link&lt;/a&gt;.  This has been a very fruitful collaborative project and I&#39;m very happy to have it &#39;live.&#39;  Also, note that the authorship listed on the site is not what we have for the paper, but we notified the editor.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 23 Sep 2016 00:00:00 -0400</pubDate>
+				<link>http://mutualismecology.com/2016/09/23/RJournalOnline.html</link>
+				<guid isPermaLink="true">http://mutualismecology.com/2016/09/23/RJournalOnline.html</guid>
+			</item>
 		
 			<item>
 				<title>Early View of Paper in Global Ecology and Biogeography</title>
 				        
 				
-					<description>&lt;p&gt;Steve Vander Wall (University of Nevada, Reno) and I had a paper accepted in &lt;i&gt;Global Ecology and Biogeography&lt;/i&gt;, `Interaction diversity of North American seed-dispersal mutualisms'.  It is now posted in &lt;i&gt;Global Ecology and Biogeography&lt;/i&gt;'s Early View webpage: &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/geb.12502/full&quot;&gt;Link to paper&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you don't have access to the site, you can find a postprint posted on my &lt;a href=&quot;/Publications&quot;&gt;publications page&lt;/a&gt;&lt;/p&gt;</description>
+					<description>&lt;p&gt;Steve Vander Wall (University of Nevada, Reno) and I had a paper accepted in &lt;i&gt;Global Ecology and Biogeography&lt;/i&gt;, `Interaction diversity of North American seed-dispersal mutualisms&#39;.  It is now posted in &lt;i&gt;Global Ecology and Biogeography&lt;/i&gt;&#39;s Early View webpage: &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/geb.12502/full&quot;&gt;Link to paper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you don&#39;t have access to the site, you can find a postprint posted on my &lt;a href=&quot;/Publications&quot;&gt;publications page&lt;/a&gt;&lt;/p&gt;
+
+</description>
 				
 				<pubDate>Wed, 07 Sep 2016 00:00:00 -0400</pubDate>
 				<link>http://mutualismecology.com/2016/09/07/GEBEarlyView.html</link>
@@ -22,7 +37,9 @@
 				<title>Cleveland R Users Group (CRUG) presentation</title>
 				        
 				
-					<description>&lt;p&gt;This Wednesday I'm giving a talk at the &lt;a href=&quot;http://www.meetup.com/Cleveland-UseR-Group/&quot;&gt;Cleveland R Users Group (CRUG)&lt;/a&gt;.  The foci of the talk will be on (i) implementing ordinary differential, (ii) modeling stochastic differential equations (SDEs), and (iii) using &lt;a href=&quot;&quot;&gt;our R package, QPot&lt;/a&gt;, to calculate quasi-potentials for two-dimensional systems of SDEs.  I am following last month's talk given by R superstar &lt;a href=&quot;http://hadley.nz/&quot;&gt;Hadley Wickham&lt;/a&gt;.  It's going to be math-lite and image-heavy.  I also used the program &lt;a href=&quot;https://www.rstudio.com/home/&quot;&gt;RStudio&lt;/a&gt; for the first time because they have a nifty way to create presentations using R markdown as one of the ways that they create dynamic documents in R.  The slides I created are written as .html files, so you can view them in your browser and they can be found by following this link: &lt;a href=&quot;https://github.com/dispersing/CRUG_QPotPresentation/blob/master/QPot.md&quot;&gt;&lt;i&gt;link to slides&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;</description>
+					<description>&lt;p&gt;This Wednesday I&#39;m giving a talk at the &lt;a href=&quot;http://www.meetup.com/Cleveland-UseR-Group/&quot;&gt;Cleveland R Users Group (CRUG)&lt;/a&gt;.  The foci of the talk will be on (i) implementing ordinary differential, (ii) modeling stochastic differential equations (SDEs), and (iii) using &lt;a href=&quot;&quot;&gt;our R package, QPot&lt;/a&gt;, to calculate quasi-potentials for two-dimensional systems of SDEs.  I am following last month&#39;s talk given by R superstar &lt;a href=&quot;http://hadley.nz/&quot;&gt;Hadley Wickham&lt;/a&gt;.  It&#39;s going to be math-lite and image-heavy.  I also used the program &lt;a href=&quot;https://www.rstudio.com/home/&quot;&gt;RStudio&lt;/a&gt; for the first time because they have a nifty way to create presentations using R markdown as one of the ways that they create dynamic documents in R.  The slides I created are written as .html files, so you can view them in your browser and they can be found by following this link: &lt;a href=&quot;https://github.com/dispersing/CRUG_QPotPresentation/blob/master/QPot.md&quot;&gt;&lt;i&gt;link to slides&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+
+</description>
 				
 				<pubDate>Mon, 15 Aug 2016 00:00:00 -0400</pubDate>
 				<link>http://mutualismecology.com/2016/08/15/CRUG.html</link>
@@ -33,7 +50,7 @@
 				<title>A cheat sheet of ecological functions</title>
 				        
 				
-					<description>&lt;p&gt;From time to time I find myself referencing &lt;a href=&quot;http://ms.mcmaster.ca/~bolker/&quot;&gt;Ben Bolker&lt;/a&gt;'s book, &lt;a href=&quot;https://ms.mcmaster.ca/~bolker/emdbook/&quot;&gt;&lt;i&gt;Ecological Models and Data in R&lt;/i&gt;&lt;/a&gt; to quickly look at the references of ecological functions.  They are broken into four groups: (1) piecewise, (2) rational, (3) exponential, and (4) power-law functions.  I've created a modified reference that has them all on a single page---a cheat sheet---that I thought I'd share.  Of course, folks should buy and read the book---it's excellent.&lt;/p&gt;
+					<description>&lt;p&gt;From time to time I find myself referencing &lt;a href=&quot;http://ms.mcmaster.ca/~bolker/&quot;&gt;Ben Bolker&lt;/a&gt;&#39;s book, &lt;a href=&quot;https://ms.mcmaster.ca/~bolker/emdbook/&quot;&gt;&lt;i&gt;Ecological Models and Data in R&lt;/i&gt;&lt;/a&gt; to quickly look at the references of ecological functions.  They are broken into four groups: (1) piecewise, (2) rational, (3) exponential, and (4) power-law functions.  I&#39;ve created a modified reference that has them all on a single page---a cheat sheet---that I thought I&#39;d share.  Of course, folks should buy and read the book---it&#39;s excellent.&lt;/p&gt;
 
 </description>
 				
@@ -46,7 +63,7 @@
 				<title>Hopf bifurcations in the Rosenzweig-MacArthur consumer-resource model</title>
 				        
 				
-					<description>&lt;p&gt;This weekend I revisited Kevin McCann's monograph &lt;a href=&quot;http://press.princeton.edu/titles/9642.html&quot;&gt;&lt;i&gt;Food Webs&lt;/i&gt;&lt;/a&gt; because I was reminding myself how it is exactly that we scale from 2- to &lt;i&gt;n&lt;/i&gt;-species in dynamic models.&lt;/p&gt;
+					<description>&lt;p&gt;This weekend I revisited Kevin McCann&#39;s monograph &lt;a href=&quot;http://press.princeton.edu/titles/9642.html&quot;&gt;&lt;i&gt;Food Webs&lt;/i&gt;&lt;/a&gt; because I was reminding myself how it is exactly that we scale from 2- to &lt;i&gt;n&lt;/i&gt;-species in dynamic models.&lt;/p&gt;
 
 </description>
 				
@@ -59,7 +76,9 @@
 				<title>Paper accepted in The R Journal</title>
 				        
 				
-					<description>&lt;p&gt;Colleagues and I have had our paper accepted in The R Journal.  A collaborative project, we were composed of a mathematician from University of Maryland, Baltimore (&lt;a href=&quot;http://www.math.umd.edu/~mariakc&quot;&gt;Maria Cameron&lt;/a&gt;), and two theoretical ecologists (&lt;a href=&quot;http://www.bennolting.org&quot;&gt;Ben Nolting&lt;/a&gt;, &lt;a href=&quot;http://www.case.edu/artsci/biol/abbottlab/CWRU/Home.html&quot;&gt;Karen Abbott&lt;/a&gt;) and two ecologists straddling the theory-empirical boundary (&lt;a href=&quot;http://www.stieha.com/&quot;&gt;Chris Stieha&lt;/a&gt; and me) from Case Western Reserve University.  Our paper built upon Ben and Karen's &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1890/15-1047.1/abstract&quot;&gt;recent paper on using the quasi-potential&lt;/a&gt; to assess stability in two-dimensional stochastic systems by creating a package in R that would make it accessible to ecologists (Maria Cameron wrote the C code).  This paper is essentially a methods paper on how to use the package, with several examples to better familiarize users with how the quasi-potential actually works.&lt;/p&gt;</description>
+					<description>&lt;p&gt;Colleagues and I have had our paper accepted in The R Journal.  A collaborative project, we were composed of a mathematician from University of Maryland, Baltimore (&lt;a href=&quot;http://www.math.umd.edu/~mariakc&quot;&gt;Maria Cameron&lt;/a&gt;), and two theoretical ecologists (&lt;a href=&quot;http://www.bennolting.org&quot;&gt;Ben Nolting&lt;/a&gt;, &lt;a href=&quot;http://www.case.edu/artsci/biol/abbottlab/CWRU/Home.html&quot;&gt;Karen Abbott&lt;/a&gt;) and two ecologists straddling the theory-empirical boundary (&lt;a href=&quot;http://www.stieha.com/&quot;&gt;Chris Stieha&lt;/a&gt; and me) from Case Western Reserve University.  Our paper built upon Ben and Karen&#39;s &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1890/15-1047.1/abstract&quot;&gt;recent paper on using the quasi-potential&lt;/a&gt; to assess stability in two-dimensional stochastic systems by creating a package in R that would make it accessible to ecologists (Maria Cameron wrote the C code).  This paper is essentially a methods paper on how to use the package, with several examples to better familiarize users with how the quasi-potential actually works.&lt;/p&gt;
+
+</description>
 				
 				<pubDate>Sun, 17 Jul 2016 00:00:00 -0400</pubDate>
 				<link>http://mutualismecology.com/2016/07/17/RJournalAcceptance.html</link>
@@ -70,8 +89,10 @@
 				<title>Paper accepted in Global Ecology and Biogeography</title>
 				        
 				
-					<description>&lt;p&gt;Steve Vander Wall (University of Nevada, Reno) and I had a paper accepted in &lt;i&gt;Global Ecology and Biogeography&lt;/i&gt;, `Interaction diversity of North American seed-dispersal mutualisms'.  This is a paper that examines the distribution of plants that are dispersed animals (engaged in seed-dispersal mutualisms) across temperate North America.  Our main finding was that the plants engaged in these mutualisms have very different distributions in space and across environmental gradients than those plants that are dispersed abiotically.&lt;/p&gt;
-&lt;p&gt;I will a post preprint when it's available.&lt;/p&gt;</description>
+					<description>&lt;p&gt;Steve Vander Wall (University of Nevada, Reno) and I had a paper accepted in &lt;i&gt;Global Ecology and Biogeography&lt;/i&gt;, `Interaction diversity of North American seed-dispersal mutualisms&#39;.  This is a paper that examines the distribution of plants that are dispersed animals (engaged in seed-dispersal mutualisms) across temperate North America.  Our main finding was that the plants engaged in these mutualisms have very different distributions in space and across environmental gradients than those plants that are dispersed abiotically.&lt;/p&gt;
+&lt;p&gt;I will a post preprint when it&#39;s available.&lt;/p&gt;
+
+</description>
 				
 				<pubDate>Thu, 16 Jun 2016 00:00:00 -0400</pubDate>
 				<link>http://mutualismecology.com/2016/06/16/GEBAcceptance.html</link>
@@ -82,7 +103,7 @@
 				<title>Creating dynamics in a hexagonal world in the R environment</title>
 				        
 				
-					<description>&lt;p&gt;I've recently been collaborating on a project on the spread of wildlife disease.  We have an interesting spatially structured system with a reservoir host occupying the interior of islands and the species of concern on the periphery of the islands (see last week's post: &lt;a href=&quot;/2016/06/10/Hexagons.html&quot;&gt;Creating a hexagonal world&lt;/a&gt;).&lt;/p&gt;
+					<description>&lt;p&gt;I&#39;ve recently been collaborating on a project on the spread of wildlife disease.  We have an interesting spatially structured system with a reservoir host occupying the interior of islands and the species of concern on the periphery of the islands (see last week&#39;s post: &lt;a href=&quot;/2016/06/10/Hexagons.html&quot;&gt;Creating a hexagonal world&lt;/a&gt;).&lt;/p&gt;
 
 </description>
 				
@@ -95,7 +116,7 @@
 				<title>Creating a hexagonal world</title>
 				        
 				
-					<description>&lt;p&gt;It cannot be stated just how important space is in ecology and evolution.  The fact that organisms exist in 2 (or 3) spatial dimensions means that any understanding of ecological or evolutionary processes need to be placed in a spatial context or assumptions need to be made that most often don't reflect the biology of the organism or process.  Some of these assumptions that are probably most familiar may include panmixia/random mating (partially implies that organisms travel through space with 0 effort) or mass action (ecological interaction rates are proportional to the homogeneous densities of each reactant, meaning that reactants that change instantaneously redistribute themselves in space). &lt;/p&gt;
+					<description>&lt;p&gt;It cannot be stated just how important space is in ecology and evolution.  The fact that organisms exist in 2 (or 3) spatial dimensions means that any understanding of ecological or evolutionary processes need to be placed in a spatial context or assumptions need to be made that most often don&#39;t reflect the biology of the organism or process.  Some of these assumptions that are probably most familiar may include panmixia/random mating (partially implies that organisms travel through space with 0 effort) or mass action (ecological interaction rates are proportional to the homogeneous densities of each reactant, meaning that reactants that change instantaneously redistribute themselves in space). &lt;/p&gt;
 
 </description>
 				
@@ -115,19 +136,6 @@
 				<pubDate>Tue, 01 Mar 2016 00:00:00 -0500</pubDate>
 				<link>http://mutualismecology.com/2016/03/01/Stochasticity.html</link>
 				<guid isPermaLink="true">http://mutualismecology.com/2016/03/01/Stochasticity.html</guid>
-			</item>
-		
-			<item>
-				<title>On the benefits of conversations with other scientists</title>
-				        
-				
-					<description>&lt;p&gt;I returned this week from a busy trip west to the Bay Area in California.  I went for a meeting (previously blogged at &lt;a href=&quot;/2016/01/08/ASN.html&quot;&gt;ASN 2016, stand-alone meeting&lt;/a&gt;), but I also ended up working with a new collaborator at Syracuse University, and visited an old friend and group at Stanford University.  This week really was one of the pinnacle weeks in my professional career thus far.  At the meeting I met dozens of scientists, both young and old; I conversed with a collaborator for the first time about a project we are working on; and I gave a talk, went to happy hour with graduate students and postdocs, and met people on campus at Stanford University.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 21 Jan 2016 00:00:00 -0500</pubDate>
-				<link>http://mutualismecology.com/2016/01/21/Conversations.html</link>
-				<guid isPermaLink="true">http://mutualismecology.com/2016/01/21/Conversations.html</guid>
 			</item>
 		
 	</channel>
